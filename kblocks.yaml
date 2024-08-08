@@ -7,15 +7,9 @@ operators:
     OPENAI_API_KEY: openai-token
 
 include:
-  - ./acme/bucket
   - ./acme/cron
-  - ./acme/workload
-  - ./acme/queue
   - ./acme/postgres
-  - ./acme/argo
-  - ./acme/run
+  - ./acme/queue
   - ./acme/repository
-  - ./acme/service
-  - ./acme/portal
   - ./acme/website
-  - ./acme/topic
+  - ./acme/workload
